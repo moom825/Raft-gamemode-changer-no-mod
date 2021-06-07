@@ -101,10 +101,9 @@ if __name__ == '__main__':
         print('exiting....')
         exit()
     try:
-        result = pyfiglet.figlet_format("Raft gamemode changer by moom825")
-        print(result)
+        print(pyfiglet.figlet_format("Raft gamemode changer by moom825"))
         time.sleep(2)
-        print("To find your world save file, got to this link...")
+        print("To find where your world save file is located, go to this link...")
         print("https://steamcommunity.com/app/648800/discussions/0/1694922980049829923/")
         print("press enter to continue...")
         input()
